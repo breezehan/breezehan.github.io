@@ -73,7 +73,7 @@ $ git submodule add https://github.com/next-theme/hexo-theme-next themes/next
 <<<<<<< HEAD
 ### 3.5 push 到 github
 =======
-## 3.5 push 到 github
+### 3.5 push 到 github
 >>>>>>> c27430d0f07442f7efdeb94b59397dfda6992766
 ``` bash
 $ git add .
