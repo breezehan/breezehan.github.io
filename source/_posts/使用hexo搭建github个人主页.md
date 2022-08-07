@@ -9,12 +9,12 @@ tags:
 ---
 
 
-## 一、安装nodeJs
+## 安装nodeJs
 可参考官方文档 [hexo-下载](https://nodejs.org/zh-cn/download/)
 
 deepin 可能需要特殊处理
 
-## 二、本地关联库
+## 本地关联库
 ### github创建同名库
 1. 使用github创建一个跟用户名同名的库，比如我的用户名是 breezehan，那么就创建一个 breezehan.github.io 的库
 2. 根本地文件夹关联，或者先clone
@@ -58,27 +58,27 @@ $ hexo g -d
 ```
 <!-- more --> 
 
-## 三、保存源文件
-### 3.1 在github上创建一个新分支，比如source，可以把主分支改为source
+## 保存源文件
+### 在github上创建一个新分支，比如source，可以把主分支改为source
 
-### 3.2 本地切换到source分支，修改 .gitignore ，只保留source目录和根目录下的文件
+### 本地切换到source分支，修改 .gitignore ，只保留source目录和根目录下的文件
 
-### 3.3 submodules保存theme
+### submodules保存theme
 ``` bash
 $ git submodule add https://github.com/next-theme/hexo-theme-next themes/next
 ```
 
-### 3.4 themes/next 的 _config.yml，可以在根目录中创建一个 _config.next.yml等方式保存
+### themes/next 的 _config.yml，可以在根目录中创建一个 _config.next.yml等方式保存
 
 
-### 3.5 push 到 github
+### push 到 github
 ``` bash
 $ git add .
 $ git commit-m "source分支保存源文件"
 $ git push origin source
 ```
 
-## 四、异地、异机使用
+## 异地、异机使用
 
 ### 多级clone
 
@@ -96,8 +96,8 @@ $ hexo g
 $ hexo s
 ```
 
-## 五、标签、目录
-### 5.1 打开配置:themes/next/_config.yml
+## 标签、目录
+### 打开配置:themes/next/_config.yml
 ``` yml
 menu: 
   home: / || fa fa-home
@@ -109,7 +109,7 @@ menu:
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 ```
-### 5.2 新建tags page
+### 新建tags page
 
 ``` bash
 $ hexo new page tags
@@ -124,7 +124,7 @@ type: "tags"
 ```
 
 
-### 5.3 新建categories page
+### 新建categories page
 ``` bash
 $ hexo new page categories
 ```
@@ -139,7 +139,7 @@ type: "categories"
 ---
 ```
 
-### 5.4 文章中使用
+### 文章中使用
 
 ``` bash
 $ hexo new "xxxx"
@@ -159,6 +159,6 @@ tags:
 ---
 ```
 
-## 五、其他
+## 其他
 > 工具使用: vscode、typora
 
