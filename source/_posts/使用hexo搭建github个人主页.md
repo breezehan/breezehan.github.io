@@ -70,7 +70,11 @@ $ git submodule add https://github.com/next-theme/hexo-theme-next themes/next
 
 ### 3.4 themes/next 的 _config.yml，可以在根目录中创建一个 _config.next.yml等方式保存
 
+<<<<<<< HEAD
 ### 3.5 push 到 github
+=======
+## 3.5 push 到 github
+>>>>>>> c27430d0f07442f7efdeb94b59397dfda6992766
 ``` bash
 $ git add .
 $ git commit-m "source分支保存源文件"
