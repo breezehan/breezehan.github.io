@@ -39,24 +39,7 @@
 
 <h2 id="三、保存源文件"><a href="#三、保存源文件" class="headerlink" title="三、保存源文件"></a>三、保存源文件</h2><h3 id="3-1-在github上创建一个新分支，比如source，可以把主分支改为source"><a href="#3-1-在github上创建一个新分支，比如source，可以把主分支改为source" class="headerlink" title="3.1 在github上创建一个新分支，比如source，可以把主分支改为source"></a>3.1 在github上创建一个新分支，比如source，可以把主分支改为source</h3><h3 id="3-2-本地切换到source分支，修改-gitignore-，只保留source目录和根目录下的文件"><a href="#3-2-本地切换到source分支，修改-gitignore-，只保留source目录和根目录下的文件" class="headerlink" title="3.2 本地切换到source分支，修改 .gitignore ，只保留source目录和根目录下的文件"></a>3.2 本地切换到source分支，修改 .gitignore ，只保留source目录和根目录下的文件</h3><h3 id="3-3-submodules保存theme"><a href="#3-3-submodules保存theme" class="headerlink" title="3.3 submodules保存theme"></a>3.3 submodules保存theme</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git submodule add https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 
-<h3 id="3-4-themes-x2F-next-的-config-yml，可以在根目录中创建一个-config-next-yml等方式保存"><a href="#3-4-themes-x2F-next-的-config-yml，可以在根目录中创建一个-config-next-yml等方式保存" class="headerlink" title="3.4 themes&#x2F;next 的 _config.yml，可以在根目录中创建一个 _config.next.yml等方式保存"></a>3.4 themes&#x2F;next 的 _config.yml，可以在根目录中创建一个 _config.next.yml等方式保存</h3><p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
-<h3 id="3-5-push-到-github"><a href="#3-5-push-到-github" class="headerlink" title="3.5 push 到 github"></a>3.5 push 到 github</h3><p>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</p>
-<h3 id="3-5-push-到-github-1"><a href="#3-5-push-到-github-1" class="headerlink" title="3.5 push 到 github"></a>3.5 push 到 github</h3><blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>c27430d0f07442f7efdeb94b59397dfda6992766</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git commit-m <span class="string">&quot;source分支保存源文件&quot;</span></span><br><span class="line">$ git push origin <span class="built_in">source</span></span><br></pre></td></tr></table></figure>
+<h3 id="3-4-themes-x2F-next-的-config-yml，可以在根目录中创建一个-config-next-yml等方式保存"><a href="#3-4-themes-x2F-next-的-config-yml，可以在根目录中创建一个-config-next-yml等方式保存" class="headerlink" title="3.4 themes&#x2F;next 的 _config.yml，可以在根目录中创建一个 _config.next.yml等方式保存"></a>3.4 themes&#x2F;next 的 _config.yml，可以在根目录中创建一个 _config.next.yml等方式保存</h3><h3 id="3-5-push-到-github"><a href="#3-5-push-到-github" class="headerlink" title="3.5 push 到 github"></a>3.5 push 到 github</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git commit-m <span class="string">&quot;source分支保存源文件&quot;</span></span><br><span class="line">$ git push origin <span class="built_in">source</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="四、异地、异机使用"><a href="#四、异地、异机使用" class="headerlink" title="四、异地、异机使用"></a>四、异地、异机使用</h2><h3 id="多级clone"><a href="#多级clone" class="headerlink" title="多级clone"></a>多级clone</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> --recurse-submodules git@github.com:breezehan/breezehan.github.io.git my-blog</span><br></pre></td></tr></table></figure>
 
